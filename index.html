@@ -14,7 +14,7 @@ document.getElementById("awaiting").style.display = "block";
 }
 function ghdone() {
 document.getElementById("loader").style.display = "none";
-//document.getElementById("done").style.display = "block";
+document.getElementById("done").style.display = "block";
 }
 PLfile = "goldhen.bin";
 </script>
@@ -24,9 +24,9 @@ PLfile = "goldhen.bin";
 <script src="webkit.js"></script>
 </head>
 <body>
-<div id="loader" class="info">Memuat Payload, harap menunggu ...</div>
+<div id="loader" class="info">Memuat exploit, harap menunggu ...</div>
 <div id="awaiting" class="info" style="display:none;">Kirim Payload ke Port 9020</div>
-<!-- <div id="done" class="info" style="display:none;">Berhasil. Cabut USB Drive sekarang!</div> -->
+<div id="done" class="info" style="display:none;">Berhasil. Selamat bermain.</div>
 <script>
 var req = new XMLHttpRequest();
 req.responseType = "arraybuffer";
